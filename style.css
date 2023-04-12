@@ -20,7 +20,7 @@ body {
 
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 24px;
     font-size: 16px;
 }
 
@@ -43,14 +43,14 @@ body {
 
 
 .escola-titulo{
-    padding: 12px 0;
+    padding: 70px 70px;
 }
 
 .estudante{
     padding: 12px 0;
 }
 .estudante-imagem{
-    width: 60px;
+    width: 10px;
 }
 
 .estudante-icone{
@@ -62,7 +62,7 @@ body {
 
 .estudante-titulo{
     text-align: center;
-    padding: 25px 0;
+    padding: 60px 30px;
 }
 
 .estudante-todos{
