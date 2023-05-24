@@ -1,103 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("style/header.css");
+
+:root {
+    --cor-de-fundo: #cfdcfa;
 }
+
 body {
-    font-family: 'Poppins', sans-serif;
-}
-.cabecalho {
-    background-color: #49acaf;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+    background-color: var(--cor-de-fundo);
 }
 
-.cabecalho-imagem{
-    width: 50%;
-}
+.professor-2 {
+    width: 50px;
 
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 24px;
-    font-size: 16px;
-}
-
-.escola-imagem{
-    width: 25%;
-    align-items: right;
-}
-
-.escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.escola-div-conteudo{
-    width: 70%;
-    text-align: right;
-}
-
-
-.escola-titulo{
-    padding: 70px 70px;
-    text-align: right;
-}
-
-.estudante{
-    padding: 12px 0;
-}
-.estudante-imagem{
-    width: 10%;
-}
-
-.estudante-icone{
-    width: 6px;
-    padding: 2px 4px;
-}
-
-
-
-.estudante-titulo{
-    text-align: center;
-    padding: 100px 30px;
-}
-
-.estudante-todos{
-    display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10%;
-}
-
-.rodape{
-    background-color: black;
-    text-align: center;
-}
-
-.rodape-imagem{
-    height: 140px;
-    padding: 6px 0;
-}
-.professores-imagem{
-    width: 300px;
-}
-.professor-imagem{
-    width: 300px;
-}
-.professor-div1{
-    text-align:center;
-}
-.professor-div2{
-    text-align: center;
-}
-.professores-div{
-    text-align: center;
-}
-.professores-titulo{
-    text-align: center;
-    padding: 5%;
 }
